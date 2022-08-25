@@ -1,0 +1,61 @@
+*{
+    margin:0
+}
+
+/* .container{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(https://www.incimages.com/uploaded_files/image/1024x576/getty_883231284_200013331818843182490_335833.jpg);
+} */
+
+.container h1{
+    color: rgb(9, 47, 78);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    font-size: 6ch;
+}
+
+.add-customer{
+    display: block;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    color: rgb(255, 225, 225);
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #154a68;
+    padding: 20px;
+}
+
+.add-customer.submit{
+    width: 25%;
+    padding: 3px;
+    font-size: 15px;
+    color: rgb(36, 22, 4);
+    background-color:#ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+
+.add-customer input,
+.add-customer select,
+.add-customertextarea{
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-family: sans-serif;
+}
+
+.add-customer input:focus,
+.add-customer textarea:focus{
+    box-shadow: 3px 3px 10px rgb(228, 228, 288), -3px -3px 10px rgb(224, 224, 224);
+}
+
+.add-customer.submit:hover {
+    box-shadow: 3px 3px 6px rgb(255, 214, 176);
+  }
